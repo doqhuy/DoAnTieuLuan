@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f305035a92ec32d4b915aa08af691418, type: 3}
+  m_Name: IceRain
+  m_EditorClassIdentifier: 
+  Image: {fileID: 21300000, guid: 8f14c6df63503e64dbfa0956cf3d08ca, type: 3}
+  Name: Ice Rain
+  Description: A rain of Ice fall from sky
+  DamageType: Magic
+  IsMultiple: 1
+  Target: Enemy
+  IsAttack: 1
+  IsBuffATK: 0
+  IsBuffDEF: 0
+  IsBuffSpeed: 0
+  IsRestore: 0
+  BuffCount: 0
+  AnimationType: IceSkill
+  Effect: Nothing
+  MPCost: 0
+  ATKScale: 0
+  MagicScale: 50
+  RestoreHP: 0
+  RestoreMP: 0
+  BuffATK: 0
+  BuffDEF: 0
+  BuffMagic: 0
+  BuffMagicRES: 0
+  BuffSpeed: 0
+  BuffLuck: 0

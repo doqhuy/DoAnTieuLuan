@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad45935078d0a04ca6f5a6304c0f49a, type: 3}
+  m_Name: Main_Quest1
+  m_EditorClassIdentifier: 
+  Image: {fileID: 0}
+  Id: 0
+  Name: MQ1
+  Description: Talk to yellowgirl and kill 1  Brown Bird
+  Type: Main
+  Status: UnClaimed
+  IsReturn: 1
+  IsEventClaimed: 0
+  ItemsRequired: []
+  KillList: []
+  QuestRequired:
+  - MQ1
+  CoinReward: 500
+  ItemReward:
+  - item: {fileID: 11400000, guid: dd457664b6e9d784ea85e25c5acfdbff, type: 2}
+    amount: 1
+  EquipmentReward: []
+  CharacterReward:
+  - {fileID: 11400000, guid: 93532709b78c867499f4d8be325f8a07, type: 2}
+  NextQuests: []
+  PreviousQuests: []
+  MiniQuests: []
