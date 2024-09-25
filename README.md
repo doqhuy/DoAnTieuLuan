@@ -1,5 +1,6 @@
-# Welcome to GitHub Desktop!
+# Welcome to DoAnTieuLuan!
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
-
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+B1: Tạo Project trên Unity phiên bản 2022.3.10f1
+B2: Tắt Project
+B3: Thay thế Folder Assets, ProjectSetting và Pakages từ git sang Project đã tạo
+B4: Mở lại Project 
