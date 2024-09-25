@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b2e531f2a6be05458b2290e1d18d8bc, type: 3}
+  m_Name: MafiaCat
+  m_EditorClassIdentifier: 
+  Id: 0
+  Avatar: {fileID: 807665598, guid: 202cb4177f7acac4da2d9f32bebccff4, type: 3}
+  AnimatorController: {fileID: 9100000, guid: 24c90a9fab8532546844cfd72916003a, type: 2}
+  Name: Mafia Cat
+  Job: {fileID: 11400000, guid: dea511c4b595e0045953c7bf73c248a6, type: 2}
+  Description: An One Eye Mafia Cat
+  Level: 31
+  EXP: 231
+  UpEXP: 343
+  BaseHP: 150
+  HP: 600
+  MaxHP: 600
+  BaseMP: 100
+  MP: 400
+  MaxMP: 400
+  BaseATK: 100
+  ATK: 400
+  BaseMagic: 50
+  Magic: 200
+  BaseDEF: 50
+  DEF: 200
+  BaseMagicRES: 50
+  MagicRES: 200
+  BaseLuck: 2
+  Luck: 2
+  BaseSpeed: 20
+  Speed: 80
+  Helmet: {fileID: 0}
+  Armor: {fileID: 0}
+  Weapon: {fileID: 0}
+  Accessory: {fileID: 0}
+  learnedSkills: []
+  ListSkill:
+  - Skill: {fileID: 11400000, guid: d23f34c975d9bba42a3a82674cda1e7b, type: 2}
+    LvRequired: 0
+  - Skill: {fileID: 11400000, guid: 5882119118bd85f47b53008aa2ac99b9, type: 2}
+    LvRequired: 0
+  - Skill: {fileID: 11400000, guid: 7cd8a35b1099a4844a279eae0a4434af, type: 2}
+    LvRequired: 0
+  AttackAnimationType: IceSkill
+  IsPlaying: 0
+  IsInTeam: 1
+  IsClaimed: 0
+  BuffATKCount: -17
+  BuffATK: 0
+  BuffDEFCount: -17
+  BuffDEF: 0
+  BuffSpeedCount: -17
+  BuffSpeed: 0
